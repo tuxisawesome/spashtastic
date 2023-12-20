@@ -1,5 +1,5 @@
 // Change this to your repository name
-var GHPATH = 'splashtastic';
+var GHPATH = 'spashtastic';
  
 // Choose a different app prefix name
 var APP_PREFIX = 'splashtastic_';
@@ -8,7 +8,7 @@ var APP_PREFIX = 'splashtastic_';
 // you need to change this version (version_01, version_02…). 
 // If you don't change the version, the service worker will give your
 // users the old files!
-var VERSION = 'version_000001';
+var VERSION = 'version_000002';
  
 // The files to make available for offline use. make sure to add 
 // others to this list
