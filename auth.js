@@ -29,8 +29,8 @@ function checkCookie() {
   if (pass != "") {
     auth(pass, false);
   } else {
-    if (window.location.href != "https://tuxisawesome.github.io/splashtastic/") {
-      if (window.location.href != "https://tuxisawesome.github.io/splashtastic/logout") {
+    if (window.location.href != "https://tuxisawesome.github.io/spashtastic/") {
+      if (window.location.href != "https://tuxisawesome.github.io/spashtastic/logout") {
         window.location.href = "/";
       }
     }
@@ -39,8 +39,8 @@ function checkCookie() {
 window.onload = checkCookie;
 
 function success() {
-  if (window.location.href == "https://tuxisawesome.github.io/splashtastic/") {
-    window.location.href = "https://tuxisawesome.github.io/splashtastic/home";
+  if (window.location.href == "https://tuxisawesome.github.io/spashtastic/") {
+    window.location.href = "https://tuxisawesome.github.io/spashtastic/home";
   }
 }
 
@@ -51,8 +51,8 @@ function auth(v, cookie) {
     }
     success();
   } else if (block.includes(pin.value)) {
-    if (window.location.href != "https://tuxisawesome.github.io/splashtastic/") {
-      if (window.location.href != "https://tuxisawesome.github.io/splashtastic/logout") {
+    if (window.location.href != "https://tuxisawesome.github.io/spashtastic/") {
+      if (window.location.href != "https://tuxisawesome.github.io/spashtastic/logout") {
         const element = document.body;
         element.innerHTML = "<h1>Loading...</h1>";
         window.location.href = "/";
@@ -62,11 +62,11 @@ function auth(v, cookie) {
       "Auth Failed. The pin is not in our database. Please contact the owner in order to get a pin.",
     );
   } else {
-    if (window.location.href != "https://tuxisawesome.github.io/splashtastic/") {
-      if (window.location.href != "https://tuxisawesome.github.io/splashtastic/logout") {
+    if (window.location.href != "https://tuxisawesome.github.io/spashtastic/") {
+      if (window.location.href != "https://tuxisawesome.github.io/spashtastic/logout") {
         const element = document.body;
         element.innerHTML = "<h1>Loading...</h1>";
-        window.location.href = "https://tuxisawesome.github.io/splashtastic/";
+        window.location.href = "https://tuxisawesome.github.io/spashtastic/";
       }
     }
     window.alert(
@@ -86,7 +86,7 @@ function login() {
 
 function deleteCookie() {
   document.cookie = "password" + "=; Max-Age=-99999999;";
-  window.location.href = "https://tuxisawesome.github.io/splashtastic/logout";
+  window.location.href = "https://tuxisawesome.github.io/spashtastic/logout";
 }
 
 function goodbyeworld() {
