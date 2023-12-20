@@ -1,7 +1,7 @@
 {
-    "name": "Chinese Class",
-    "short_name": "Chinese",
-    "description": "Chinese Class Review App",
+    "name": "Splashtastic",
+    "short_name": "Splash",
+    "description": "The SplashTastic App!",
    
     "scope": "/",
     "start_url": "/",

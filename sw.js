@@ -1,8 +1,8 @@
 // Change this to your repository name
-var GHPATH = '';
+var GHPATH = 'splashtastic';
  
 // Choose a different app prefix name
-var APP_PREFIX = 'chineseclass_';
+var APP_PREFIX = 'splashtastic_';
  
 // The version of the cache. Every time you change any of the files
 // you need to change this version (version_01, version_02…). 
@@ -14,6 +14,7 @@ var VERSION = 'version_000001';
 // others to this list
 var URLS = [    
   `${GHPATH}/`,
-  `${GHPATH}/hw`,
-  `${GHPATH}/walterwork`
+  `${GHPATH}/home`,
+  `${GHPATH}/logout`,
+  `${GHPATH}/auth.js`
 ]
