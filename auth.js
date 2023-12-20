@@ -66,7 +66,7 @@ function auth(v, cookie) {
       if (window.location.href != "https://tuxisawesome.github.io/splashtastic/logout") {
         const element = document.body;
         element.innerHTML = "<h1>Loading...</h1>";
-        window.location.href = "/";
+        window.location.href = "https://tuxisawesome.github.io/splashtastic/";
       }
     }
     window.alert(
